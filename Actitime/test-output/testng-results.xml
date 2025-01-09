@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-07T22:38:05 IST" name="Default suite" finished-at="2025-01-07T22:38:40 IST" duration-ms="35452">
+    <groups>
+    </groups>
+    <test started-at="2025-01-07T22:38:05 IST" name="Default test" finished-at="2025-01-07T22:38:40 IST" duration-ms="35452">
+      <class name="com.actitime.testscript.Demo_DataProvider">
+        <test-method signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:com.actitime.testscript.Demo_DataProvider@7334aada]" started-at="2025-01-07T22:38:05 IST" name="loginPage" data-provider="getData" finished-at="2025-01-07T22:38:15 IST" duration-ms="10180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:com.actitime.testscript.Demo_DataProvider@7334aada]" started-at="2025-01-07T22:38:15 IST" name="loginPage" data-provider="getData" finished-at="2025-01-07T22:38:21 IST" duration-ms="6231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rohit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:com.actitime.testscript.Demo_DataProvider@7334aada]" started-at="2025-01-07T22:38:21 IST" name="loginPage" data-provider="getData" finished-at="2025-01-07T22:38:30 IST" duration-ms="9077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Modhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:com.actitime.testscript.Demo_DataProvider@7334aada]" started-at="2025-01-07T22:38:30 IST" name="loginPage" data-provider="getData" finished-at="2025-01-07T22:38:40 IST" duration-ms="9886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qtp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+      </class> <!-- com.actitime.testscript.Demo_DataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
