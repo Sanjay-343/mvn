@@ -13,11 +13,11 @@ import org.testng.annotations.BeforeMethod;
 
 public class BaseClass {
 	
-	public WebDriver driver;
-	//@Parameters("browser")
-	@BeforeClass
-	public void openBrowser()
-	{
+//	public WebDriver driver;
+//	@Parameters("browser")
+//	@BeforeClass
+//	public void openBrowser()
+//	{
 //		if(browser.equals("chrome"))
 //		{
 //			driver=new ChromeDriver();
@@ -34,35 +34,35 @@ public class BaseClass {
 //		{
 //			driver=new ChromeDriver();
 //		}
-		driver=new ChromeDriver();
-		//driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
-
-	}
-	
-	@BeforeMethod
-	public void login()
-	{
-		driver.get("http://localhost/login.do"); 
-
-		driver.findElement(By.id("username")).sendKeys("admin");
-		driver.findElement(By.name("pwd")).sendKeys("manager");
-		
-		driver.findElement(By.xpath("//div[text()='Login ']")).click();
-	}
-	
-	@AfterMethod
-	public void logout()
-	{
-		driver.findElement(By.id("logoutLink")).click();
-
-	}
-	
-	@AfterClass
-	public void closeBrowser()
-	{
-		driver.quit();
-	}
+//		driver=new ChromeDriver();
+//		//driver.manage().window().maximize();
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//		
+//
+//	}
+//	
+//	@BeforeMethod
+//	public void login()
+//	{
+//		driver.get("http://localhost/login.do"); 
+//
+//		driver.findElement(By.id("username")).sendKeys("admin");
+//		driver.findElement(By.name("pwd")).sendKeys("manager");
+//		
+//		driver.findElement(By.xpath("//div[text()='Login ']")).click();
+//	}
+//	
+//	@AfterMethod
+//	public void logout()
+//	{
+//		driver.findElement(By.id("logoutLink")).click();
+//
+//	}
+//	
+//	@AfterClass
+//	public void closeBrowser()
+//	{
+//		driver.quit();
+//	}
 
 }
