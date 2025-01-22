@@ -11,6 +11,7 @@ public class LoginToActitime {
 	public void testlogin()
 	{
 		WebDriver driver= new ChromeDriver();
+		driver.get("http://localhost.login.do");
 		Reporter.log("MVN Project",true);
 //		driver.get("http://localhost/login.do"); 
 //		System.out.println(driver.getTitle());
